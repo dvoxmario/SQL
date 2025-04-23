@@ -1,1 +1,6 @@
-SELECT * FROM users WHERE age = 15; // en esta sentencia recuperamos los datos mas detalladamente
+SELECT * FROM users WHERE age = 15; /* en esta sentencia recuperamos los datos mas detalladamente*/
+
+SELECT name FROM users WHERE age = 15; /* en esta sentencia traemos los datos de la columna name y combinando wl where trayendo los datos de la columna age;*/
+
+SELECT DISTINCT age FROM users WHERE age= 15; /* combinamos dos sentencias para traer los datos distintos de la columna age indicando con el where otra sentencia.*/
+
